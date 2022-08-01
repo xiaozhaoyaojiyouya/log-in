@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+*:focus{
+	outline:none;
+}
+.contact_form{
+	width:70%;
+	position:absolute;
+	top:20px;
+	left:35%;
+}
+.tree{
+	position:relative;
+	top:320px;
+	left:200px;
+}
+.contact_form ul{
+	list-style:none;
+}
+.contact_form ul li{
+	border-bottom:1px solid #ddd;
+	padding:12px;
+}
+.contact_form ul li:first-child,.contact_form ul li:last-child{
+	border-bottom:1px solid #777;
+}
+.usually input,.usually textarea{
+	background:url(images/attention.png)no-repeat 98% center;
+	transition:padding 0.25s;
+}
+.usually input{
+	height:20px;
+	width:220px;
+	padding:5px 8px;
+	border-radius:6px;
+}
+textarea{
+	width:300px;
+	padding:8px;
+}
+.usually span{
+	width:150px;
+	margin-top:3px;
+	display:inline-block;
+	padding:3px;
+}
+.usually input:focus,.usually textarea:focus{
+	padding-right:70px;
+	border:1px solid #555;
+	box-shadow:0 0 3px #aaa;
+}
+.usually input:focus:invalid,.usually textarea:focus:invalid{
+	background:url(images/warn.png)no-repeat 98% center;
+	box-shadow:0 0 5px red;
+	border:1px solid red;
+}
+.usually input:focus:valid,.usually textarea:focus:valid{
+	background:url(images/right.png)no-repeat 98% center;
+	box-shadow:0 0 5px green;
+	border:1px solid green;
+}
+.register .pic{
+	width:80px;
+	height:80px;
+	background:url(%E6%9C%AA%E6%A0%87%E9%A2%98-1.png) no-repeat center center;
+	background-size:cover;
+}
+.register .pic:hover{
+	background:url(%E6%9C%AA%E6%A0%87%E9%A2%98-1.png) no-repeat center center;
+	background-size:cover;
+}
+
+	
+
+
+
